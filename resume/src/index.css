@@ -1,0 +1,159 @@
+/* Times New Roman */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("/fonts/Times New Roman/times new roman.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Times New Roman";
+  src: url("/fonts/Times New Roman/times\ new\ roman\ bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Bert Sans */
+
+@font-face {
+  font-family: "Bert Sans";
+  src: url(/fonts/Bert-Sans/BertSans-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Bert Sans";
+  src: url(/fonts/Bert-Sans/BertSans-Bold.ttf);
+  font-weight: 700;
+}
+
+/* Lato */
+
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Semibold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Other styles */
+
+:root {
+  font-family: "Nimbus Sans", "Roboto", Inter, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  print-color-adjust: exact;
+}
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+  background-color: #f8f8f8;
+}
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  border-style: solid;
+  border-color: currentColor;
+}
+
+div.smooth-dnd-container {
+  min-height: 0;
+}
+
+@media print {
+  body {
+    padding-top: 0px;
+    background-color: white;
+  }
+  .hide-when-printing {
+    display: none;
+  }
+}
+
+@page {
+  margin: 1in;
+  width: 6.27in;
+  height: 9.69in;
+}
+
+@media screen and (max-width: 500px) {
+  .hide-when-small {
+    display: none !important;
+  }
+}
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */

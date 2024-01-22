@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/CV.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1976d2" />
+  <meta name="description" content="Generate a custom CV/Resume using beautiful templates">
+  <meta name="keywords" content="CV, Resume, PWA, Progressive Web App">
+  <meta name="author" content="Yewo Mhango">
+  <meta property="og:image" content="/images/maskable_icon.png" />
+  <meta property="og:description" content="Generate a custom CV/Resume using beautiful templates" />
+  <meta property="og:title" content="Online CV/Resume Builder" />
+  <meta property="twitter:title" content="Online CV/Resume Builder" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>Online CV Builder</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/serviceWorker.js').then(function (registration) {
+          console.log('Worker registration successful', registration.scope);
+          registration.unregister()
+        }, function (err) {
+          console.log('Worker registration failed', err);
+        }).catch(function (err) {
+          console.log(err);
+        });
+      });
+    } else {
+      console.log('Service Worker is not supported by browser.');
+    }
+  </script>
+</body>
+
+</html>

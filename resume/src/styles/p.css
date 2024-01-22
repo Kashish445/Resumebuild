@@ -1,0 +1,174 @@
+
+
+section{
+  background-color: white;
+}
+.container{
+  
+  /* margin-top: 140px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        width: 100%;
+        height: 100%;
+        overflow: hidden;}
+
+        .wrapper{
+            max-width: 1366px;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            margin-left: 170px;
+            
+            align-items: center;
+            justify-content:space-evenly;
+            gap: 120px;}
+
+            .imageContainer{
+                flex:1;
+                height: 50%;}
+                .imageContainer img{
+                   width: 500px;
+                   height: 500px;
+
+                    object-fit: cover;
+                    border: 1px;
+                    border-style:outset;
+                    box-shadow: 0 19px 28px  rgba(0, 0, 0, 0.271);
+                    /* border-radius: 50px; */
+  
+        
+        
+                }
+        
+
+            
+        
+       
+        .textContainer{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;}
+
+            .textContainer h2{
+                font-size: 52px;
+                font-weight: 600;
+                color: rgb(45, 2, 85);
+                
+
+                
+
+            }
+
+            .textContainer p{
+                color: rgba(26, 1, 44, 0.456);
+                font-size: 20px;
+            }
+
+             .textContainer button{
+                background-color: orange;
+                border: none;
+                border-radius: 10px;
+                padding: 10px;
+                width: 200px;
+                cursor: pointer;
+
+            
+
+            }
+
+            /* .gallery  {
+  
+              display: grid;
+              width: 220px;
+            }
+            .gallery > img {
+              grid-area: 1/1;
+              width: 100%;
+              aspect-ratio: 1;
+              object-fit: cover;
+              border: 10px solid #f2f2f2;
+              box-shadow: 0 0 4px #0007;
+              animation: slide 6s infinite;
+            }
+            .gallery > img:last-child {
+              animation-name: slide-last;
+            }
+            
+            .gallery > img:nth-child(2) { animation-delay: -2s; } 
+            .gallery > img:nth-child(3) { animation-delay: -4s; }
+            
+            
+            @keyframes slide {
+              0%     {transform: translateX(0%)  ;z-index: 2;}
+              16.66% {transform: translateX(120%);z-index: 2;}
+              16.67% {transform: translateX(120%);z-index: 1;} 
+              33.34% {transform: translateX(0%)  ;z-index: 1;}
+              66.33% {transform: translateX(0%)  ;z-index: 1;}
+              66.34% {transform: translateX(0%)  ;z-index: 2;} 
+              100%   {transform: translateX(0%)  ;z-index: 2;}  
+            }
+            @keyframes slide-last {
+              0%     {transform: translateX(0%)  ;z-index: 2;}
+              16.66% {transform: translateX(120%);z-index: 2;}
+              16.67% {transform: translateX(120%);z-index: 1;} 
+              33.34% {transform: translateX(0%)  ;z-index: 1;}
+              83.33% {transform: translateX(0%)  ;z-index: 1;}
+              83.34% {transform: translateX(0%)  ;z-index: 2;} 
+              100%   {transform: translateX(0%)  ;z-index: 2;}  
+            } */
+            
+            
+ 
+      
+        
+  
+/*
+.aboutSection {
+    perspective: 1000px;
+  }
+  
+  .aboutContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutCard {
+    margin: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .aboutCard:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+  }
+  
+  .cardText {
+    margin: 10px 0;
+  }
+  
+  .aboutHeading {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+   */

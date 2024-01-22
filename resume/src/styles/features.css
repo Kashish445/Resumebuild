@@ -1,0 +1,115 @@
+html{
+  scroll-behavior: smooth;
+}
+.myclass{
+  height:900px;
+}
+.container1{
+    display: flex;
+    flex-direction:column;
+    gap:50px;
+  
+    
+    align-items: center;
+    justify-content: center;
+
+    padding-left :10%;
+    padding-right: 10%;
+     
+  
+  
+  }
+  .fea{
+    
+      display:flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content:center;
+      
+        
+  }
+  .first{
+    width: 302px;
+    height: 300px;
+    background-color: rgb(249 250 251);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0 auto;
+    margin-top: 4%;
+    gap:20px;
+    /* margin: 0 auto; */
+    align-items: center;
+    border-style:outset;
+    transition: 0.4s;
+}
+/* .first :hover{
+    cursor:pointer;
+    transform: scale(1.03,1.03);
+}
+   */
+   
+  /* .immg{
+    width: 70px;
+    height: 60px;
+    background-image: url('/i1.png');
+    border-radius: 10px;
+    align-items: center;
+    background-repeat: no-repeat;
+  } */
+  .inside{
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    -webkit-box-shadow: 1.5px 3.5px 10px 3.5px #dddddd;
+-moz-box-shadow: 1.5px 3.5px 10px 3.5px #dddddd;
+box-shadow: 1.5px 3.5px 10px 3.5px #dddddd;
+    transition: 0.4s;
+  
+  
+    
+  }
+  .inside :hover{
+    
+    cursor:pointer;
+    transform: scale(1.03,1.03);
+  }
+  .fea p{
+    font-size: 18px;
+    text-align:center; 
+  }
+   .first img {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    transition: 0.4s;
+  
+   }
+.first img :hover{
+    cursor:pointer;
+    transform: scale(1.03,1.03);
+}
+    
+  /* .first p{
+   text-align: center;
+  } */
+  .first h3{
+  
+  font-size:25px;
+  color: blueviolet;
+  font-weight: 400px;
+  }
+  
+.headng{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(63, 4, 118);
+    text-align: center;
+    font-style:normal;
+}  
